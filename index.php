@@ -35,7 +35,6 @@ include("./php/navigator.php");
 				</p>
 			</form>
 		</fieldset>
-
 	</div>
 </body>
 

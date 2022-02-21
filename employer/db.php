@@ -18,7 +18,6 @@ if (isset($_GET['show'])) {
         case 'applicant':
             $sql = "SELECT * FROM vacancy where username = '$username';";
             $result = mysqli_query($conn, $sql) or die($conn->error);
-
             break;
 
         default:

@@ -30,6 +30,5 @@ if (count($_POST) > 0) {
         $_SESSION['name'] = $aName;
         $_SESSION['view'] = "Employer";
         header("Location: ../index.php");
-        echo $uname;
     }
 }

@@ -64,13 +64,13 @@ include("./db.php");
 </head>
 
 <body>
-<header>
-            <nav>
-                <ul>
-                    <li><a href="../logout.php">Log-Out</a></li>
-                    <li><a href="./home.php">Home</a></li>
-                </ul>
-            </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../logout.php">Log-Out</a></li>
+                <li><a href="./home.php">Home</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="wrapper">
         <div class="card">

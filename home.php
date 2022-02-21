@@ -34,6 +34,9 @@
             text-align: center;
             margin: 70px;
         }
+        .welcome h1{
+            margin: 0;
+        }
 
         .description {
             margin: 40px;
@@ -48,8 +51,8 @@
 
         .description h3 {
             color: rgb(238, 121, 121);
-            text-shadow: 2px 2px 6px #CE6E6E;
-            font-weight: lighter;
+            text-shadow: 2px 2px 9px #CE6E6E;
+            
         }
 
         .description ul {
@@ -63,11 +66,6 @@
             color: grey;
             margin: 5px;
         }
-
-        body .description li:hover{
-            background-color: rgba(255, 255, 255, 0.428);
-        }
-
         .description li:nth-child(even) {
             background-color: #5e6cab61;
         }
@@ -133,6 +131,7 @@
         <h2>Get to know more about the website</h2>
         <a href="./faq.php"><button>FAQ</button></a>
     </div>
+    <?php include('./footer.php')?>
 </body>
 
 </html>
