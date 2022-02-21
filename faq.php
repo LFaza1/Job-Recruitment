@@ -26,7 +26,7 @@
     <?php include("./header.php"); ?>
     <div class="wrapper">
         <div class="container">
-            <h1>FQA</h1>
+            <h1>FAQ</h1>
             <div class="faq">
 
                 <div>
