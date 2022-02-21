@@ -1,0 +1,120 @@
+.column1 {
+    float: left;
+    width: 26%;
+    padding: 10px 10px;
+    height: 100%;
+}
+
+.drop{
+    display: flex;
+    flex-direction: column;
+}
+
+.drop .details {
+    display: none;
+    margin: 0 auto;
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.drop:hover .details{
+    display: block;
+}
+
+.column2 {
+    float: left;
+    width: 48%;
+    padding: 20px 20px;
+    height: 100%;
+}
+
+.column3 {
+    float: left;
+    width: 10%;
+    padding: 10px 10px;
+    height: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-image: url("../images/applicant.jpg");
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    height: 800px;
+}
+
+h3 {
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 25px;
+}
+
+p {
+    font-size: 15px;
+    color: #ffffff;
+    margin-left: 70px;
+}
+
+h1 {
+    font-size: 45px;
+    color: #ffffff;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 68px;
+}
+
+.flex-container>div {
+    background-color: #000000;
+    width: 100%;
+    margin: 10px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.button a {
+    width: 125px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 0;
+    margin-top: 25px;
+    color: #ffffff;
+    border: 0.5px solid #ffffff;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+.button a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.button a:hover span {
+    width: 100%;
+}
+
+.button a:hover {
+    color: #000000;
+}

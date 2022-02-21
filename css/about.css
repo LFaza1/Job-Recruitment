@@ -1,0 +1,77 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: url('../images/signup.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    overflow: hidden;
+
+}
+
+.about {
+    background: url(Form-Builder-Tools.jpg) no-repeat left;
+    background-size: 55%;
+    display: flex;
+    padding: 100px 0;
+    justify-content: center;
+}
+
+.inner-section {
+    width: 55%;
+    background-color: #ffffff;
+    padding: 140px;
+    box-shadow: 13px 12px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0.7;
+}
+
+.inner-section h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 15px;
+    color: grey;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills button:hover {
+    transition: 1s;
+    background-color: #ecf5f5;
+    color: #00999c;
+}
+
+@media screen and (max-width:1200px) {
+    .inner-section {
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .about {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+
+    .inner-section {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about {
+        padding: 0;
+    }
+
+    .inner-section {
+        padding: 60px;
+    }
+}

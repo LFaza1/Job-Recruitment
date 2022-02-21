@@ -1,0 +1,131 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #efefef;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #bbb;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    scrollbar-width: thin;
+}
+
+body {
+    background-image: url('../employer/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+    border-radius: 0.4rem;
+    transition: all 0.5s ease-in;
+    border: 0px;
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(233, 233, 244, 0.3);
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+.section-header {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.section-body {
+    background: white;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    min-height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll;
+    height: 65vh;
+
+}
+
+.card {
+    background: white;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    max-width: 70px;
+    min-width: 20%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-body {
+    display: flex;
+    text-align: left;
+}
+
+
+.blur {
+    box-shadow: inset 0px 0px 2px #fefefed1;
+    backdrop-filter: saturate(100%) blur(1px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.vacanccy {
+    margin-bottom: 7rem;
+    scroll-snap-align: center;
+}
+
+h3.heading {
+    padding: 0.6rem;
+    background-color: #FFf;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 2px 0 #111;
+}
+
+table {
+    padding: 0.4rem;
+    transition: all 0.5s ease-in;
+    border-spacing: 1rem 1rem;
+}
+
+
+
+table th {
+    background-color: #eeee;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+table td {
+    padding: 1rem;
+    border-bottom: 1px #efefef solid;
+    margin-bottom: 10rem;
+}

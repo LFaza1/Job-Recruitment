@@ -1,0 +1,172 @@
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: url('../images/signup.jpg');
+  background-size: cover;
+  font-family: sans-serif;
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  opacity: 0.7;
+}
+.title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #528aae;
+}
+ form .qualification-details .qualification-title{
+  font-size: 16px;
+  font-weight: 500;
+ }
+ form .category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ form .category label .dot{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+ #dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two,
+ #dot-3:checked ~ .category label .three,
+ #dot-4:checked ~ .category label .four{
+   background: #528aae;
+   border-color: #d9d9d9;
+ }
+ form input[type="radio"]{
+   display: none;
+ }
+ form .button{
+   height: 45px;
+   margin: 35px 0
+ }
+ form .button input{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: #192841;
+ }
+ form .button input:hover{
+  background: #528aae;
+  }
+ @media(max-width: 500px){
+    .container{
+      max-width: 100%;
+    }
+ }
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category{
+    width: 100%;
+  }
+  .content form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+  @media(max-width: 400px){
+    .container .content .category{
+      flex-direction: column;
+    }
+  }
+a {
+  color: #192841;
+}
+
+.login {
+  background-color: #ffff;
+  text-align: center;
+}
+
+.faq {
+width:70%;
+margin: 0 auto;
+}
+.faq div {
+border: 1px solid #000;
+margin: 5px 0px;
+background-color:#fff;
+}
+.question {
+font-size:13px;
+background-color:#ddd;
+margin:0px;
+padding: 10px;
+}
+.answer {
+  font-size:12px;
+  margin:0px;
+  padding: 0px 15px;
+  line-height:2;
+  max-height:0px;
+  overflow:hidden;
+  transition:2s;
+}
+.opener
+{
+  font-size:15px;
+  float:right;
+  line-height:0.8;
+  cursor: pointer;
+}

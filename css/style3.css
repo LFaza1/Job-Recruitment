@@ -1,0 +1,58 @@
+body{
+  background: url('../images/signup.jpg');
+  background-size: cover;
+  font-family: sans-serif;
+  margin: 0;
+  }
+  .wrapper{
+    display: flex;
+    align-content: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    max-width: 50%;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    opacity: 0.7;
+  }
+  .container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    left: 320px;
+  }
+  .faq {
+  width:70%;
+  margin: 0 auto;
+  }
+  .faq div {
+  border: 1px solid #000;
+  margin: 5px 0px;
+  background-color:#fff;
+  }
+  .question {
+  font-size:18px;
+  background-color:#ddd;
+  margin:0px;
+  padding: 15px;
+  }
+  .answer {
+  font-size:12px;
+  margin:0px;
+  padding: 0px 15px;
+  line-height:2;
+  max-height:0px;
+  overflow:hidden;
+  transition:2s;
+  }
+  .opener
+  {
+  font-size:25px;
+  float:right;
+  line-height:0.8;
+  cursor: pointer;
+  }
