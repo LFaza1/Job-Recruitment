@@ -48,6 +48,7 @@
 
         .description h3 {
             color: rgb(238, 121, 121);
+            text-shadow: 2px 2px 6px #CE6E6E;
             font-weight: lighter;
         }
 
@@ -57,7 +58,7 @@
         }
 
         .description li {
-            border-radius: 10px;
+            border-radius: 5px;
             padding: 10px;
             color: grey;
             margin: 5px;
