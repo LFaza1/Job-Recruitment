@@ -18,6 +18,7 @@ if (count($_POST) > 0) {
     } elseif (is_array($row)) {
         $error = "Username already exists";
     } else {
+        $password=md5($password);
         $sql = "INSERT INTO user(username, password, view, name, email, telephone) VALUES(\"$uname\", \"$password\", \"Applicant\", \"$aName\", \"$email\", \"$telephone\");";
         mysqli_query($conn, $sql);
 

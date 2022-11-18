@@ -2,7 +2,9 @@
     $error ="";
     if(count($_POST) > 0){
         include("./php/db_conn.php");
-        $sql = "SELECT * FROM user WHERE username = '".$_POST["user_name"]."' AND password = '".$_POST["password"]."';";
+        extract($_POST);
+        $password=md5($password);
+        $sql = "SELECT * FROM user WHERE username = \"$user_name\" AND password = \"$password\";";
         $result = mysqli_query($conn, $sql);
         $row = mysqli_fetch_array($result);
 
